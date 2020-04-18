@@ -1,0 +1,9 @@
+<%= simple_form_for(article) do |f| %>
+  <div class="container">
+    <%= f.input :title %>
+    <%= f.input :content %>
+    <div class="text-center">
+      <%= f.button :submit, "Create post", class: "btn btn-primary" %>
+    </div>
+ </div>
+<% end %>
